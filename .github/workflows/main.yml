@@ -11,7 +11,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: DAST scan
+      - name: Dast scan
         uses: PortSwigger/dastardly-github-action@main
         with:
           target-url: https://jonbarron.info/
