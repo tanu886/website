@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  DAST_SCAN:
+  Dastscan:
     runs-on: ubuntu-latest
 
     steps:
