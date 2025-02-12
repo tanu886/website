@@ -14,7 +14,7 @@ jobs:
       - name: Dast scan
         uses: PortSwigger/dastardly-github-action@main
         with:
-          target-url: https://jonbarron.info/
+          target-url: https://uat.gemorion.org/
           output-filename: dastardly-report.xml
 
       - name: check if report exist
