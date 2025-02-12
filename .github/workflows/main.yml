@@ -15,7 +15,7 @@ jobs:
         uses: PortSwigger/dastardly-github-action@main
         with:
           target-url: https://jonbarron.info/
-          report: dastardly-report.xml
+          output-filename: dastardly-report.xml
 
       - name: check if report exist
         run: ls -la
