@@ -11,9 +11,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Check network connectivity
-        run: curl -I https://gem.gov.in/
-
       - name: Dast scan
         uses: PortSwigger/dastardly-github-action@main
         with:
